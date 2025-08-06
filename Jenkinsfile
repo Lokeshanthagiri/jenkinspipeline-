@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'yourdockerhubusername/my-python-app'
+        IMAGE_NAME = 'anthagirilokesh/my-python-app'
     }
     stages {
         stage('Build Docker Image') {
